@@ -9,6 +9,10 @@ junksweep ~/projects --clean
 
 I had 14 `node_modules` directories on my laptop. Combined they were larger than my Steam library. This is that problem in a command.
 
+<p align="center">
+  <img src="demo.svg" alt="junksweep in action" width="620">
+</p>
+
 ## What it finds
 
 ```
