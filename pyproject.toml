@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.backends._legacy:_Backend"
+
+[project]
+name = "junksweep"
+version = "1.0.0"
+description = "Find and clean junk directories (node_modules, __pycache__, .git, target, build, etc.)"
+readme = "README.md"
+license = { text = "MIT" }
+keywords = ["cleanup", "disk-space", "cli", "developer-tools", "node_modules"]
+classifiers = [
+  "Environment :: Console",
+  "Intended Audience :: Developers",
+  "License :: OSI Approved :: MIT License",
+  "Programming Language :: Python :: 3",
+  "Topic :: Utilities",
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/neocrev/junksweep"
+Source = "https://github.com/neocrev/junksweep"
+
+[project.scripts]
+junksweep = "junksweep:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
