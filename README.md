@@ -1,8 +1,9 @@
-# junksweep
-
-[![PyPI](https://img.shields.io/pypi/v/junksweep)](https://pypi.org/project/junksweep/) [![License](https://img.shields.io/badge/license-MIT-green)](LICENSE)
-
-Find out how much of your disk is `node_modules` and `__pycache__`. Then clean it up.
+<p align="center">
+  <h1>junksweep</h1>
+  <p>Find out how much of your disk is <code>node_modules</code> and <code>__pycache__</code>. Then clean it up.</p>
+  <a href="https://pypi.org/project/junksweep/"><img src="https://img.shields.io/pypi/v/junksweep" alt="PyPI"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-green" alt="License"></a>
+</p>
 
 <p align="center">
   <img src="demo.svg" alt="junksweep in action" width="620">
